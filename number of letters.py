@@ -10,7 +10,6 @@ for i in range(97, 123):
 
 number_of_letters.sort(reverse=True)                                    #sort the list in descending order of amount of letters
 print("This is the number of each letter in the sentence: ")
-print(number_of_letters)
 all_occur = True                                                        #adding a variable which checks whether all letters of the alphabet were found
 for i in number_of_letters:                                             #printing the number of letters
     if i[0]>0:
