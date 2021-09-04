@@ -1,7 +1,7 @@
 sentence = input("Give a sentence to count the letters in: ")   #ask for a sentence
 list_zin = []
 for i in sentence:
-    list_zin.append(i)                                          #make a list of the sentence and make it all lowercase
+    list_zin.append(i.lower())                                          #make a list of the sentence and make it all lowercase
 
 number_of_letters = []                                          #add a list to count all the characters
 
