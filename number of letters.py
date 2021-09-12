@@ -1,7 +1,10 @@
-try:
-    text = open(input("Give a file with its directory to count the lettetrs in: "))
-except FileNotFoundError:
-    print("This file wasn't found, please check for any mistakes in the name or directory")    
+while True:
+    try:
+        text = open(input("Give a file with its directory to count the lettetrs in: "))
+        break
+    except FileNotFoundError:
+        print("This file wasn't found, please check for any mistakes in the name or directory")
+
 
 readtext = text.read()                                                              
 list_text = []
